@@ -13,6 +13,9 @@ namespace Chapitre2
         string promotion;
         string faculte;
 
+        // Variables de classe
+        static int nombreEtudiants = 0;
+
         // Constructeur par défaut
         public Etudiant()
         {
@@ -24,6 +27,7 @@ namespace Chapitre2
             this.nom = nom;
             this.promotion = promotion;
             this.faculte = faculte;
+            nombreEtudiants++;
         }
 
         // Deuxième constructeur
@@ -38,6 +42,7 @@ namespace Chapitre2
             Console.WriteLine($"Nom: {nom}");
             Console.WriteLine($"Promotion: {promotion}");
             Console.WriteLine($"Faculté: {faculte}");
+            Console.WriteLine($"Nombre d'étudiants: {nombreEtudiants}");
 
         }
 
