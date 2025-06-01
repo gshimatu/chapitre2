@@ -12,3 +12,4 @@ C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.
 C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.pdb
 C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.genruntimeconfig.cache
 C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\ref\Chapitre2.dll
+c:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.sourcelink.json

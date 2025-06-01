@@ -14,9 +14,9 @@ namespace Chapitre2
 
         public void Afficher()
         {
-            Console.WriteLine("Nom: {nom}");
-            Console.WriteLine("Promotion: {promotion}");    
-            Console.WriteLine("Faculté: {faculte}");
+            Console.WriteLine($"Nom: {nom}");
+            Console.WriteLine($"Promotion: {promotion}");    
+            Console.WriteLine($"Faculté: {faculte}");
            
         }
 

@@ -1,10 +1,4 @@
-﻿// using System;
-// using Chapitre2;
-
-// Etudiant etudiant1 = new Etudiant();
-// etudiant.nom = "Gauthier";
-// etudiant.promotion = "L3";  
-// etudiant.faculte = "Fasi";
+﻿using System;
 
 namespace Chapitre2
 {
