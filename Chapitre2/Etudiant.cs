@@ -21,7 +21,7 @@ namespace Chapitre2
         }
 
         // Deuxième constructeur
-        public Etudiant(String nom, string promotion)
+        public Etudiant(String nom, string promotion) : this(nom, promotion, "(Non attribue)")
         {
             this.nom = nom;
             this.promotion = promotion;
