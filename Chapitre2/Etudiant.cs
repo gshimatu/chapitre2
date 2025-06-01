@@ -9,9 +9,9 @@ namespace Chapitre2
     internal class Etudiant
     {
         // Attributs
-        string nom { get; set; }
-        string promotion { get; set; }
-        string faculte { get; set; }
+        public string nom { get; set; }
+        public string promotion { get; set; }
+        public string faculte { get; set; }
 
         // Variables de classe
         static int nombreEtudiants = 0;
