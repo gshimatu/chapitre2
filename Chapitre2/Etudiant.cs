@@ -8,6 +8,7 @@ namespace Chapitre2
 {
     internal class Etudiant
     {
+        // Attributs
         string nom;
         string promotion;
         string faculte;
