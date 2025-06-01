@@ -8,10 +8,17 @@ namespace Chapitre2
 {
     internal class Etudiant
     {
-        string nom;
-        string promotion;
-        string faculte;
+        public string nom;
+        public string promotion;
+        public string faculte;
 
-        
+        public void Afficher()
+        {
+            Console.WriteLine("Nom: {nom}");
+            Console.WriteLine("Promotion: {promotion}");    
+            Console.WriteLine("Faculté: {faculte}");
+           
+        }
+
     }
 }
