@@ -37,7 +37,7 @@ namespace Chapitre2
             this.promotion = promotion;
         }
 
-        public void Afficher()
+        public virtual void Afficher()
         {
             Console.WriteLine($"Nom: {nom}");
             Console.WriteLine($"Promotion: {promotion}");

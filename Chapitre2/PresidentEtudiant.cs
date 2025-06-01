@@ -15,6 +15,12 @@ namespace Chapitre2
             this.avantage = avantage;
         }
 
-        
+        public override void Afficher()
+        {
+            //base.Afficher(); // Appel de la méthode Afficher de la classe de base
+            Console.WriteLine($"Mandat: {mandat}");
+            Console.WriteLine($"Avantage: {avantage}");
+            Console.WriteLine("-----------------------------");
+        }
     }
 }
