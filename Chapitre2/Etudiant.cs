@@ -17,10 +17,10 @@ namespace Chapitre2
         static int nombreEtudiants = 0;
 
         // Constructeur par défaut
-        public Etudiant()
-        {
+        // public Etudiant()
+        // {
 
-        }
+        // } // Suppression du constructeur par défaut
 
         public Etudiant(String nom, string promotion, string faculte)
         {
