@@ -39,11 +39,17 @@ namespace Chapitre2
 
         public virtual void Afficher()
         {
+            AfficherInfos();
+            Console.WriteLine("-----------------------------");
+
+        }
+
+        protected void AfficherInfos()
+        {
             Console.WriteLine($"Nom: {nom}");
             Console.WriteLine($"Promotion: {promotion}");
             Console.WriteLine($"Faculté: {faculte}");
             Console.WriteLine($"Nombre d'étudiants: {nombreEtudiants}");
-
         }
 
         // Ajout des accesseurs (getters et setters)

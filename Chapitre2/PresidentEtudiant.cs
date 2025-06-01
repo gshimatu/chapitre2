@@ -17,7 +17,8 @@ namespace Chapitre2
 
         public override void Afficher()
         {
-            //base.Afficher(); // Appel de la méthode Afficher de la classe de base
+            // base.Afficher(); // Appel de la méthode Afficher de la classe de base
+            AfficherInfos();
             Console.WriteLine($"Mandat: {mandat}");
             Console.WriteLine($"Avantage: {avantage}");
             Console.WriteLine("-----------------------------");
