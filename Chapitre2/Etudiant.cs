@@ -9,9 +9,9 @@ namespace Chapitre2
     internal class Etudiant
     {
         // Attributs
-        string nom;
-        string promotion;
-        string faculte;
+        string nom { get; set; }
+        string promotion { get; set; }
+        string faculte { get; set; }
 
         // Variables de classe
         static int nombreEtudiants = 0;
@@ -53,6 +53,8 @@ namespace Chapitre2
         //     set { nom = value; }
         // }
 
+        /*
+
         public string GetNom()
         {
             return nom;
@@ -82,6 +84,8 @@ namespace Chapitre2
         {
             this.faculte = faculte;
         }
+
+        */
 
     }
 }

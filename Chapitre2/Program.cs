@@ -17,7 +17,7 @@ namespace Chapitre2
             etudiant2.Afficher();
 
             etudiant2.SetNom("Chimatu");
-            Console.WriteLine($"Nom : {etudiant2.GetNom()}");
+            Console.WriteLine($"Nom : {etudiant2.GetNom()}");    
 
         }
     }
