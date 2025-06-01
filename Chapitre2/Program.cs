@@ -11,14 +11,16 @@ namespace Chapitre2
             //etudiant1.promotion = "L3";  
             //etudiant1.faculte = "Fasi";
 
-            etudiant1.Afficher();
+            // etudiant1.Afficher(); Mise en commentaire pour ne voir que l'affichage du président étudiant
 
             Etudiant etudiant2 = new Etudiant("Shimatu", "L3");
-            etudiant2.Afficher();
+            // etudiant2.Afficher();  Mise en commentaire pour ne voir que l'affichage du président étudiant
 
             //etudiant2.SetNom("Chimatu");
             //Console.WriteLine($"Nom : {etudiant2.GetNom()}");    
 
+            PresidentEtudiant president1 = new PresidentEtudiant("Shimatologue", "G3", "FASI", "2024-2025", 1500.0);
+            president1.Afficher();
         }
     }
 }

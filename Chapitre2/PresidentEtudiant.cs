@@ -14,5 +14,7 @@ namespace Chapitre2
             this.mandat = mandat;
             this.avantage = avantage;
         }
+
+        
     }
 }
