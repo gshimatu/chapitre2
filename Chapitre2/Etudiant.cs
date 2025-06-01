@@ -20,6 +20,13 @@ namespace Chapitre2
             this.faculte = faculte;
         }
 
+        // Deuxième constructeur
+        public Etudiant(String nom, string promotion)
+        {
+            this.nom = nom;
+            this.promotion = promotion;
+        }
+
         public void Afficher()
         {
             Console.WriteLine($"Nom: {nom}");

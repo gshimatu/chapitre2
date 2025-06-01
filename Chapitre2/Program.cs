@@ -13,6 +13,9 @@ namespace Chapitre2
 
             etudiant1.Afficher();
 
+            Etudiant etudiant2 = new Etudiant("Shimatu", "L3");
+            etudiant2.Afficher();
+
         }
     }
 }
