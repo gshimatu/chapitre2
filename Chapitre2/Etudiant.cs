@@ -12,7 +12,13 @@ namespace Chapitre2
         string nom;
         string promotion;
         string faculte;
-        
+
+        // Constructeur par défaut
+        public Etudiant()
+        {
+
+        }
+
         public Etudiant(String nom, string promotion, string faculte)
         {
             this.nom = nom;
@@ -33,6 +39,43 @@ namespace Chapitre2
             Console.WriteLine($"Promotion: {promotion}");
             Console.WriteLine($"Faculté: {faculte}");
 
+        }
+
+        // Ajout des accesseurs (getters et setters)
+        // public string Nom
+        // {
+        //     get { return nom; }
+        //     set { nom = value; }
+        // }
+
+        public string GetNom()
+        {
+            return nom;
+        }
+
+        public void SetNom(string nom)
+        {
+            this.nom = nom;
+        }
+
+        public string GetPromotion()
+        {
+            return promotion;
+        }
+
+        public void SetPromotion(string promotion)
+        {
+            this.promotion = promotion;
+        }
+
+        public string GetFaculte()
+        {
+            return faculte;
+        }
+        
+        public void SetFaculte(string faculte)
+        {
+            this.faculte = faculte;
         }
 
     }
