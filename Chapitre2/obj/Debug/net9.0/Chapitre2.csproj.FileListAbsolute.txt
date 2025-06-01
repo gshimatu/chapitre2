@@ -1,0 +1,14 @@
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.AssemblyInfoInputs.cache
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.AssemblyInfo.cs
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.csproj.CoreCompileInputs.cache
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\bin\Debug\net9.0\Chapitre2.exe
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\bin\Debug\net9.0\Chapitre2.deps.json
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\bin\Debug\net9.0\Chapitre2.runtimeconfig.json
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\bin\Debug\net9.0\Chapitre2.dll
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\bin\Debug\net9.0\Chapitre2.pdb
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.dll
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\refint\Chapitre2.dll
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.pdb
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\Chapitre2.genruntimeconfig.cache
+C:\Users\Gauthier Shimatu\3D Objects\coursC#\Chapitre2\Chapitre2\obj\Debug\net9.0\ref\Chapitre2.dll
