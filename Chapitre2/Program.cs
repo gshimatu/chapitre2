@@ -21,6 +21,8 @@ namespace Chapitre2
 
             PresidentEtudiant president1 = new PresidentEtudiant("Shimatologue", "G3", "FASI", "2024-2025", 1500.0);
             president1.Afficher();
+
+            
         }
     }
 }
