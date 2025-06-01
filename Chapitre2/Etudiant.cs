@@ -1,25 +1,17 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Chapitre2;
-
-public class Etudiant
+namespace Chapitre2 
 {
-    private string nom;
-    private string promotion;
-    private string faculte;
-
-    public Etudiant(string nom, string promotion, string faculte)
+    internal class Etudiant
     {
-        this.nom = nom;
-        this.promotion = promotion;
-        this.faculte = faculte;
+        string nom;
+        string promotion;
+        string faculte;
+
+        
     }
-
-    
-
-    public void Afficher()
-    {
-        Console.WriteLine($"Nom: {nom}, Promotion: {promotion}, Faculte: {faculte}");
-    }
-
 }
