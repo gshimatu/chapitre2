@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Chapitre2
 {
-    internal class AEtudiant
+    abstract class AEtudiant
     {
+        public string nom { get; set; }
+        public string promotion { get; set; }
+        public string faculte { get; set; }
+
+        public abstract void AfficherInfos();
+        public abstract void PayerFrais(double montant);
     }
 }
