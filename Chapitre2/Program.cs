@@ -22,9 +22,14 @@ namespace Chapitre2
             PresidentEtudiant president1 = new PresidentEtudiant("Shimatologue", "G3", "FASI", "2024-2025", 1500.0);
             president1.Afficher();
 
-            ChefPromotion cp = new ChefPromotion("Stone", "L3", "FASI", "Assurer le bon deroulement du cours dans sa promotion et represente les étudiants au pres du doyen");
+            /* ChefPromotion cp = new ChefPromotion("Stone", "L3", "FASI", "Assurer le bon deroulement du cours dans sa promotion et represente les étudiants au pres du doyen");
             cp.AfficherInfos();
-            cp.PayerFrais(900);
+            cp.PayerFrais(900); */
+
+            PresidentEtudiant2 pr = new PresidentEtudiant2("WANGI", "L4LMD", "FASI", "Bourse d'étude");
+
+            pr.AfficherInfos();
+            pr.PayerFrais(1200);
         }
     }
 }

@@ -15,15 +15,24 @@ namespace Chapitre2
 
         public string avantage { get; set; }
 
+        public PresidentEtudiant2(string nom, string promotion, string faculte, string avantage)
+        {
+            this.nom = nom;
+            this.promotion = promotion;
+            this.faculte = faculte;
+            this.avantage = avantage;
+        }
+
         public void AfficherInfos()
         {
             Console.WriteLine($"Nom: {nom}");
             Console.WriteLine($"Promotion: {promotion}");
             Console.WriteLine($"Faculté: {faculte}");
+            Console.WriteLine($"Avantage bénéficié: {avantage}");
         }
         public void PayerFrais(double montant)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Le frais payé est de {montant}");
         }
     }
 }
