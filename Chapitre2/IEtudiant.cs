@@ -8,6 +8,10 @@ namespace Chapitre2
 {
     internal interface IEtudiant
     {
-        string nom { get; set;  }
+        string nom { get; set; }
+        string promotion { get; set; }
+        string faculte { get; set; }
+        void AfficherInfos();
+        void PayerFrais(double montant);
     }
 }
