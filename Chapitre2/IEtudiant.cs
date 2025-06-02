@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chapitre2
 {
-    internal interface IEtudiant
+    interface IEtudiant
     {
         string nom { get; set; }
         string promotion { get; set; }
