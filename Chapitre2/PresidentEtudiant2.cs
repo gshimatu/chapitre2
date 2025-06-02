@@ -9,13 +9,17 @@ namespace Chapitre2
 {
     public class PresidentEtudiant2 : IEtudiant
     {
-        public string nom { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string promotion { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string faculte { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string nom { get ; set ; }
+        public string promotion { get ; set ; }
+        public string faculte { get ; set ; }
+
+        public string avantage { get; set; }
 
         public void AfficherInfos()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Nom: {nom}");
+            Console.WriteLine($"Promotion: {promotion}");
+            Console.WriteLine($"Faculté: {faculte}");
         }
         public void PayerFrais(double montant)
         {
