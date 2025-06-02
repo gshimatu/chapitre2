@@ -12,6 +12,13 @@ namespace Chapitre2
         public string promotion { get; set; }
         public string faculte { get; set; }
 
+        public AEtudiant(string nom, string promotion, string faculte)
+        {
+            this.nom = nom;
+            this.promotion = promotion;
+            this.faculte = faculte;
+        }
+
         public abstract void AfficherInfos();
         public abstract void PayerFrais(double montant);
     }
